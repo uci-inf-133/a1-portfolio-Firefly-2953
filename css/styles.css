@@ -1,0 +1,28 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', Arial, sans-serif;
+}
+
+
+
+body {
+  background-color: #bba1cb;
+  
+}
+
+.header {
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  background-color: #6a4c93;
+  color: white;
+  padding: 30px 10%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
