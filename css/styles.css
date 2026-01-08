@@ -8,6 +8,7 @@
 
 
 
+
 body {
   background-color: #bba1cb;
   
@@ -18,11 +19,30 @@ body {
   top: 0;
   width: 100%;
   background-color: #6a4c93;
+  border-bottom: 4px solid #372550;
+  background: linear-gradient(to right, #4d3174, #7b5aa6);
   color: white;
   padding: 30px 10%;
   text-align: center;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
   align-items: center;
   z-index: 100;
+}
+
+.header a {
+  margin-left: 24px;
+}
+
+a {
+  color: white;              /* or any color you want */
+  text-decoration: none;     /* removes underline */
+}
+
+.logo {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1.5rem;
+  font-weight: 700;
 }
