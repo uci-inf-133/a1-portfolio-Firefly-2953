@@ -10,7 +10,8 @@
 
 
 body {
-  background-color: #bba1cb;
+  background-color: #ebe1f8;
+  padding-bottom: 80px;
   
 }
 
@@ -26,23 +27,95 @@ body {
   text-align: center;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
-  align-items: center;
   z-index: 100;
 }
 
 .header a {
+  color: white;
+  text-decoration: none;
   margin-left: 24px;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-a {
-  color: white;              /* or any color you want */
-  text-decoration: none;     /* removes underline */
+.header a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-4px);
 }
+
+.header .logo {
+  color: rgba(255, 255, 255, 0.4) !important;
+  
+}
+
+
 
 .logo {
   font-family: 'Open Sans', Arial, sans-serif;
   color: rgba(255, 255, 255, 0.4);
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 60px 0 40px;
+}
+
+main {
+  padding-top: 140px; /* adjust if needed */
+}
+
+main h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+main p {
+  color: #8462c1;
+}
+
+
+.interest-icon::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: rgba(106, 76, 147, 0.5);
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.profile-photo {
+  outline: 2px solid rgba(106, 76, 147, 0.2);
+  outline-offset: 6px;
+}
+
+
+
+
+.footer a {
+  width: 48px;
+  height: 48px;
+  background-color: #6a4c93;
+  color: white;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.2rem;
+  text-decoration: none;
+
+  transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.footer a:hover {
+  background-color: #4d3174;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
