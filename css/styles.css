@@ -43,13 +43,12 @@ body {
 }
 
 .header .logo {
-  color: rgba(255, 255, 255, 0.4) !important;
+  color: rgba(255, 255, 255, 0.4);
   
 }
 
 .about-portrait {
   max-width: 300px;
-  border-radius: 22px;
   object-fit: cover;
   border-radius: 18px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
@@ -61,6 +60,9 @@ body {
   color: rgba(255, 255, 255, 0.4);
   font-size: 1.5rem;
   font-weight: 700;
+  position: relative;
+  z-index: 105;
+  pointer-events: auto;
 }
 
 .footer {
@@ -80,7 +82,7 @@ body {
 
 }
 
-.about-divider {
+.page-divider {
 
   height: 3px;
   background-color: #463262;
@@ -88,21 +90,19 @@ body {
   margin: 2rem 0 2rem;
 }
 
-.resume-divider {
 
-  height: 3px;
-  background-color: #463262;
-  border: none;
-  margin: 2rem 0 2rem;
+.contact-card {
+  max-width: 600px;
+  background-color: #f3ecfb;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-.projects-divider {
-
-  height: 3px;
-  background-color: #463262;
-  border: none;
-  margin: 2rem 0 2rem;
+.contact-card h1 {
+  font-family: 'Playfair Display', serif;
 }
+
 
 
 
