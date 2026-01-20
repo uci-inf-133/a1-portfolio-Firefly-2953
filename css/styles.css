@@ -15,6 +15,22 @@ body {
   
 }
 
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: #6a4c93;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
 .header {
   position: fixed; 
   top: 0;
@@ -107,7 +123,7 @@ body {
 
 
 main {
-  padding-top: 140px; /* adjust if needed */
+  padding-top: 160px; /* adjust if needed */
 }
 
 main h1 {
