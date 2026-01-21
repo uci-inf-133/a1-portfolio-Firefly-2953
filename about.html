@@ -2,8 +2,8 @@
 <html lang="en">
 
   <!--
-  WRITTEN BY: Emily Onofrio
-  EMAIL: eonofrio@uci.edu
+    WRITTEN BY: Emily Onofrio
+    EMAIL: eonofrio@uci.edu
   -->
 
   <head>
@@ -48,7 +48,8 @@
   </head>
 
   <body>
-     <!-- Added skip link to satisfy AChecker -->
+
+    <!-- Skip link for accessibility -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <header class="header">
@@ -64,13 +65,16 @@
     </header>
 
     <main class="container mt-4" id="main-content">
+
       <section class="about-card mx-auto">
         <h1 class="mb-4">About Me</h1>
         <hr class="page-divider">
 
-        <div class="row align-items-center mb-4">
-          <div class="col-md-4 text-center">
+        <div class="row align-items-center mb-4 gy-4">
+
+          <div class="col-lg-4 text-center">
             <figure>
+              <!-- Changed to lg breakpoint for better tablet layout -->
               <img
                 src="images/about.jpg"
                 alt="Portrait of Emily Onofrio"
@@ -78,8 +82,8 @@
               >
             </figure>
           </div>
-
-          <div class="col-md-8 ps-md-4">
+          <!-- all paragraphs from chatgbt -->
+          <div class="col-lg-8 ps-lg-4">
             <h2 class="about-section-title">Background</h2>
             <p>
               I’m Emily Onofrio, a third-year Software Engineering student at UC Irvine, with an expected
@@ -115,11 +119,13 @@
               with technical depth, which mirrors how I approach software engineering.
             </p>
           </div>
+
         </div>
       </section>
 
-      <div class="photo-strip container my-5">
+      <section class="photo-strip container my-5">
         <div class="row g-3 justify-content-center">
+
           <div class="col-4 col-md-2">
             <img
               src="images/photo-1.jpg"
@@ -167,8 +173,10 @@
               class="strip-photo img-fluid"
             >
           </div>
+
         </div>
-      </div>
+      </section>
+
     </main>
 
     <footer class="footer" aria-label="Social links">
@@ -190,5 +198,4 @@
     </footer>
 
   </body>
-
 </html>

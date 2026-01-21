@@ -1,13 +1,10 @@
 
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Open Sans', Arial, sans-serif;
-}
-
-
-
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
 
 body {
   background-color: #ebe1f8;
@@ -72,13 +69,8 @@ body {
 
 
 .logo {
-  font-family: 'Open Sans', Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.4);
   font-size: 1.5rem;
   font-weight: 700;
-  position: relative;
-  z-index: 105;
-  pointer-events: auto;
 }
 
 .footer {
@@ -120,10 +112,31 @@ body {
 }
 
 
+.project-image {
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
 
+.project-tech {
+  color: #72638d;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 0.25rem;
+  color: #4d3174;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
 
 main {
-  padding-top: 160px; /* adjust if needed */
+  padding-top: 160px; 
 }
 
 main h1 {
@@ -135,7 +148,6 @@ main h1 {
 main p {
   color: #72638d;
 }
-
 
 .interest-icon::after {
   content: "";
